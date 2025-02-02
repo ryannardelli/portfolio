@@ -7,7 +7,18 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "serif"],
+        inter: ["Inter", "serif"],
+        sen: ["Sen", "serif"],
+      },
+      colors: {
+        colorPrimary: "#4E35F2",
+        colorSecondary: "#1D8FF2",
+        assets: "#F2F2F2"
+      }
+    },
   },
   plugins: [],
 } satisfies Config;
