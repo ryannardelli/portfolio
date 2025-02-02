@@ -16,8 +16,8 @@ export default {
       colors: {
         colorPrimary: "#4E35F2",
         colorSecondary: "#1D8FF2",
-        assets: "#F2F2F2"
-      }
+        assets: "#F2F2F2",
+      },
     },
   },
   plugins: [],
