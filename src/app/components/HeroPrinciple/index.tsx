@@ -15,7 +15,7 @@ export const HeroPrinciple = () => {
   }, []);
 
   return (
-    <div className="h-full w-full mx-auto relative top-12 pb-20 xl:px-40 px-8 flex md:flex-row-reverse flex-col gap-4 justify-center items-center pt-4">
+    <div className="h-full w-full mx-auto relative top-12 pb-20 xl:px-40 px-8 flex md:flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse flex-col gap-4 justify-center items-center pt-4">
       <div className="w-full relative">
         <div className="relative z-10 bg-colorSecondary rounded-full mx-auto overflow-hidden md:w-[400px] md:h-[400px] shadow-2xl">
           <img
@@ -27,11 +27,11 @@ export const HeroPrinciple = () => {
       </div>
 
       <div className="w-full flex flex-col justify-center gap-4 md:text-left text-center text-white dark:text-gray-800 md:mt-0 sm:mt-8 mt-4 font-sen">
-        <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold font-serif lg:w-2/4">
+        <h1 className="md:text-3xl text-2xl font-semibold font-serif lg:w-2/4">
           Olá, me chamo{" "}
-          <span className="md:text-6xl text-nowrap">Ryan Nardelli</span>
+          <span className="text-3xl md:text-6xl text-nowrap">Ryan Nardelli</span>
         </h1>
-        <h3 className="capitalize md:text-4xl sm:text-3xl text-xl font-extrabold">
+        <h3 className="capitalize md:text-3xl sm:text-2xl text-xl font-extrabold">
           E eu sou <span className="typing text-colorSecondary"></span>
         </h3>
         <p className="font-inter md:text-xl font-extrabold">
@@ -109,7 +109,7 @@ export const HeroPrinciple = () => {
           </a>
         </div>
 
-        <div className="sm:mt-4 mt-2">
+        <div className="mx-auto md:mx-0 sm:mt-4 mt-2">
           <button className="px-6 text-xl py-1 bg-colorSecondary hover:bg-transparent border-transparent border-2 hover:border-colorSecondary transition duration-300 ease-in rounded-lg text-white flex items-center">
             Download CV
             <svg
