@@ -7,7 +7,7 @@ export default function Home() {
         link_one="Home"
         link_two="Sobre"
         link_three="Serviços"
-        link_four="Portólio"
+        link_four="Portfólio"
         link_five="Contato"
       />
       <HeroPrinciple />
