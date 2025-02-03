@@ -1,3 +1,4 @@
+import { About } from "./components/About";
 import { Header } from "./components/Header";
 import { HeroPrinciple } from "./components/HeroPrinciple";
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         link_five="Contato"
       />
       <HeroPrinciple />
+      <About />
     </>
   );
 }

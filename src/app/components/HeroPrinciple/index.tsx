@@ -29,7 +29,9 @@ export const HeroPrinciple = () => {
       <div className="w-full flex flex-col justify-center gap-4 md:text-left text-center text-white dark:text-gray-800 md:mt-0 sm:mt-8 mt-4 font-sen">
         <h1 className="md:text-3xl text-2xl font-semibold font-serif lg:w-2/4">
           Olá, me chamo{" "}
-          <span className="text-3xl md:text-6xl text-nowrap">Ryan Nardelli</span>
+          <span className="text-3xl md:text-6xl text-nowrap">
+            Ryan Nardelli
+          </span>
         </h1>
         <h3 className="capitalize md:text-3xl sm:text-2xl text-xl font-extrabold">
           E eu sou <span className="typing text-colorSecondary"></span>
