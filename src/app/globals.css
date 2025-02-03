@@ -11,6 +11,9 @@
 /* FONT SEN */
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
 
+/* FONT ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background-color: #4e35f2;
   color: #f2f2f2;

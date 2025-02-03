@@ -12,6 +12,7 @@ export default {
         poppins: ["Poppins", "serif"],
         inter: ["Inter", "serif"],
         sen: ["Sen", "serif"],
+        roboto: ["Roboto", "serif"],
       },
       colors: {
         colorPrimary: "#4E35F2",

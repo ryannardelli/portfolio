@@ -19,7 +19,7 @@ export const About = () => {
           <div className="flex justify-center">
             <a
               href="#"
-              className="inline-flex text-assets bg-colorSecondary border-0 py-2 px-6 focus:outline-none rounded-xl text-lg"
+              className="inline-flex text-assets hover:bg-transparent border-transparent bg-colorSecondary border-2 hover:border-colorSecondary transition duration-300 ease-in py-2 px-6 focus:outline-none rounded-xl text-lg shadow-2xl font-bold font-roboto"
             >
               Saiba mais
             </a>
