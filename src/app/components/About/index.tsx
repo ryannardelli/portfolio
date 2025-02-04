@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="body-font bg-[#644EF5] text-assets dark:bg-slate-900">
+    <section className="body-font bg-[#644EF5] text-assets p-0 md:p-14">
       <div className="container mx-auto flex md:px-24 md:py-10 md:flex-row-reverse flex-col-reverse items-center">
         <div className="lg:flex-grow mt-5 md:mt-0 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="text-2xl font-sen font-extrabold leading-9 tracking-tight mb-3 text-assets dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal">
@@ -9,7 +9,7 @@ export const About = () => {
           <h2 className="text-2xl font-inter font-extrabold leading-9 tracking-tight mb-3 text-assets dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-2xl md:leading-normal">
             Desenvolvedor Full Stack | UX UI Designer
           </h2>
-          <p className="mb-8 font-inter font-extrabold md:pl-0 px-2">
+          <p className="mb-8 font-inter font-extrabold md:pl-0 px-0 md:px-2">
             Sou um desenvolvedor full stack com experiência em React, Next.js,
             TypeScript, Tailwind, Node.js e SQL. Tenho conhecimento em UX/UI
             Design, crio interfaces funcionais e intuitivas. Meu foco é

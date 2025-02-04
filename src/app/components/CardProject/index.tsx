@@ -43,7 +43,7 @@ export const CardProject = () => {
             </div>
           </a>
 
-          <a href="https://starlit-mousse-1c8fd6.netlify.app/" target="_blank" className="block">
+          <a href="https://merry-nasturtium-211ff4.netlify.app/" target="_blank" className="block">
             <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://readymadeui.com/images/food22.webp"
