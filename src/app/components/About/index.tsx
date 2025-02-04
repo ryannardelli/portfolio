@@ -13,7 +13,7 @@ export const About = () => {
             Desenvolvedor Full Stack | UX UI Designer
           </h2>
           <p className="mb-8 font-inter font-extrabold md:pl-0 px-0 md:px-2">
-            Sou um desenvolvedor full stack com experiência em React, Next.js,
+            Sou um desenvolvedor full stack com experiência em React, JavaScript Next.js,
             TypeScript, Tailwind, Node.js e SQL. Tenho conhecimento em UX/UI
             Design, crio interfaces funcionais e intuitivas. Meu foco é
             desenvolver soluções eficientes e otimizadas, sempre buscando
