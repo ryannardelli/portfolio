@@ -18,6 +18,17 @@ export const Header = ({
 }: CustomHeader) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
+  
+
   return (
     <header className="tracking-wide relative z-50">
       <div className="flex flex-wrap font-sen font-extrabold text-2xl items-center justify-around gap-4 px-10 py-4 min-h-[70px]">
@@ -48,32 +59,32 @@ export const Header = ({
           <ul className="lg:flex lg:gap-x-5B font-inter">
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                href={link_one}
-                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl"
+                onClick={() => scrollToSection("home")}
+                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_one}
               </a>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                href={link_two}
-                className=" text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl"
+                onClick={() => scrollToSection("about")}
+                className=" text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_two}
               </a>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                href={link_three}
-                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl"
+                onClick={() => scrollToSection("service")}
+                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_three}
               </a>
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                href={link_four}
-                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl"
+                onClick={() => scrollToSection("project")}
+                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_four}
               </a>
