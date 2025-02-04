@@ -3,7 +3,11 @@ export const CardProject = () => {
     <div className="font-roboto">
       <div className="max-w-6xl mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-lg:max-w-3xl max-md:max-w-md mx-auto">
-          <a href="https://ryannardelli.github.io/e-commerce/" target="_blank" className="block">
+          <a
+            href="https://ryannardelli.github.io/e-commerce/"
+            target="_blank"
+            className="block"
+          >
             <div className="cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://readwrite.com/wp-content/uploads/2021/06/Artificial-Intelligence-in-Ecommerce.jpg"
@@ -22,7 +26,11 @@ export const CardProject = () => {
             </div>
           </a>
 
-          <a href="https://ryannardelli.github.io/quickconvert/" target="_blank" className="block"> 
+          <a
+            href="https://ryannardelli.github.io/quickconvert/"
+            target="_blank"
+            className="block"
+          >
             <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://ebookcult.com.br/wp-content/uploads/2023/04/Como-funciona-um-conversor-de-moeda.jpg"
@@ -35,15 +43,19 @@ export const CardProject = () => {
                 </h3>
                 <div className="h-0 overflow-hidden group-hover:h-16 group-hover:mt-4 transition-all duration-300">
                   <p className="text-assets text-sm">
-                    Conversor de Moedas feito no intuito de auxiliar na conversão
-                    de moedas estrangeiras.
+                    Conversor de Moedas feito no intuito de auxiliar na
+                    conversão de moedas estrangeiras.
                   </p>
                 </div>
               </div>
             </div>
           </a>
 
-          <a href="https://merry-nasturtium-211ff4.netlify.app/" target="_blank" className="block">
+          <a
+            href="https://merry-nasturtium-211ff4.netlify.app/"
+            target="_blank"
+            className="block"
+          >
             <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://readymadeui.com/images/food22.webp"
@@ -54,15 +66,19 @@ export const CardProject = () => {
                 <h3 className="text-xl font-bold text-assets">Landing Page</h3>
                 <div className="h-0 overflow-hidden group-hover:h-16 group-hover:mt-4 transition-all duration-300">
                   <p className="text-assets text-sm">
-                    Landing Page com Designer elegante de um restaurante de venda
-                    de comidas.
+                    Landing Page com Designer elegante de um restaurante de
+                    venda de comidas.
                   </p>
                 </div>
               </div>
-            </div>         
+            </div>
           </a>
 
-          <a href="https://squad05-portodigital.github.io/Front-end/" target="_blank" className="block">
+          <a
+            href="https://squad05-portodigital.github.io/Front-end/"
+            target="_blank"
+            className="block"
+          >
             <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://tchelete.com/wp-content/uploads/2023/07/chatbot-development-with-deep-nlp-1024x1024.png"
@@ -78,9 +94,13 @@ export const CardProject = () => {
                   </p>
                 </div>
               </div>
-            </div>      
+            </div>
           </a>
-          <a href="https://marvelous-phoenix-5213f9.netlify.app/" target="_blank" className="block">
+          <a
+            href="https://marvelous-phoenix-5213f9.netlify.app/"
+            target="_blank"
+            className="block"
+          >
             <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
               <img
                 src="https://www.passeios.org/wp-content/uploads/2024/03/voucher-de-viagem.jpg"

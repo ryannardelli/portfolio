@@ -1,6 +1,6 @@
 "use client";
-import  { scrollToSection } from "../../utils/scrollToSection";
-import  { useMenu } from "../../utils/useMenu";
+import { scrollToSection } from "../../utils/scrollToSection";
+import { useMenu } from "../../utils/useMenu";
 
 interface CustomHeader {
   link_one: string;
@@ -18,7 +18,7 @@ export const Header = ({
   link_five,
 }: CustomHeader) => {
   const { menuOpen, openMenu, closeMenu } = useMenu();
-  
+
   return (
     <header className="tracking-wide relative z-50">
       <div className="flex flex-wrap font-sen font-extrabold text-2xl items-center justify-around gap-4 px-10 py-4 min-h-[70px]">

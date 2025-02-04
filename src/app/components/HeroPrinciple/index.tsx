@@ -15,7 +15,10 @@ export const HeroPrinciple = () => {
   }, []);
 
   return (
-    <div className="h-full w-full mx-auto relative top-12 pb-32 xl:px-40 px-8 flex md:flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse flex-col gap-4 justify-center items-center pt-4" id="home">
+    <div
+      className="h-full w-full mx-auto relative top-12 pb-32 xl:px-40 px-8 flex md:flex-col lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse flex-col gap-4 justify-center items-center pt-4"
+      id="home"
+    >
       <div className="w-full relative">
         <div className="relative z-10 bg-colorSecondary rounded-full mx-auto overflow-hidden md:w-[400px] md:h-[400px] shadow-2xl">
           <img
