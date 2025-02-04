@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import  { scrollToSection } from "../../utils/scrollToSection";
 
 interface CustomHeader {
   link_one: string;
@@ -17,18 +18,7 @@ export const Header = ({
   link_five,
 }: CustomHeader) => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const scrollToSection = (id: string) => {
-    const section = document.getElementById(id);
-    if (section) {
-      window.scrollTo({
-        top: section.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
   
-
   return (
     <header className="tracking-wide relative z-50">
       <div className="flex flex-wrap font-sen font-extrabold text-2xl items-center justify-around gap-4 px-10 py-4 min-h-[70px]">
