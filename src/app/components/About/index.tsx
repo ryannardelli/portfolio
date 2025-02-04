@@ -1,8 +1,8 @@
 export const About = () => {
   return (
     <section className="body-font bg-[#644EF5] text-assets p-0 md:p-14" id="about">
-      <div className="container mx-auto flex md:px-24 md:py-10 md:flex-row-reverse flex-col-reverse items-center">
-        <div className="lg:flex-grow mt-5 md:mt-0 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div className="container mx-auto flex md:px-24 md:py-10 flex-col-reverse md:flex-col-reverse lg:flex-row-reverse xl:flex-row-reverse 2xl:flex-row-reverse items-center">
+        <div className="lg:flex-grow mt-5 md:mt-0 lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="text-2xl font-sen font-extrabold leading-9 tracking-tight mb-3 text-assets dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal">
             Sobre <span className="text-colorSecondary">Mim</span>
           </h1>
@@ -26,9 +26,9 @@ export const About = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-4/6">
-          <div className="w-full relative mt-12 md:mt-0">
+          <div className="w-full relative mt-12 md:mt-0 mb-0 md:mb-5 lg:mb-0">
             <img
-              className="relative z-10 rounded-full md:max-w-[65%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-colorSecondary"
+              className="relative z-10 rounded-full lg:max-w-[65%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-colorSecondary"
               src="/img/profile.png"
               alt="My Image"
             />
