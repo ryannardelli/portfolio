@@ -28,7 +28,7 @@ export const About = () => {
         <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-4/6">
           <div className="w-full relative mt-12 md:mt-0">
             <img
-              className="relative z-10 rounded-full max-w-[65%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-colorSecondary"
+              className="relative z-10 rounded-full md:max-w-[65%] mx-auto outline outline-[.7rem] outline-offset-[.1rem] outline-colorSecondary"
               src="/img/profile.png"
               alt="My Image"
             />
