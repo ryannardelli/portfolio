@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import  { scrollToSection } from "../../utils/scrollToSection";
+import  { useMenu } from "../../utils/useMenu";
 
 interface CustomHeader {
   link_one: string;
@@ -17,7 +17,7 @@ export const Header = ({
   link_four,
   link_five,
 }: CustomHeader) => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const { menuOpen, openMenu, closeMenu } = useMenu();
   
   return (
     <header className="tracking-wide relative z-50">
@@ -33,7 +33,7 @@ export const Header = ({
         >
           {/* Botão Fechar */}
           <button
-            onClick={() => setMenuOpen(false)}
+            onClick={closeMenu}
             className="lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white w-9 h-9 flex items-center justify-center border"
           >
             <svg
@@ -49,7 +49,10 @@ export const Header = ({
           <ul className="lg:flex lg:gap-x-5B font-inter">
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                onClick={() => scrollToSection("home")}
+                onClick={() => {
+                  scrollToSection("home");
+                  closeMenu();
+                }}
                 className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_one}
@@ -57,7 +60,10 @@ export const Header = ({
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                onClick={() => scrollToSection("about")}
+                onClick={() => {
+                  scrollToSection("about");
+                  closeMenu();
+                }}
                 className=" text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_two}
@@ -65,7 +71,10 @@ export const Header = ({
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                onClick={() => scrollToSection("service")}
+                onClick={() => {
+                  scrollToSection("service");
+                  closeMenu();
+                }}
                 className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_three}
@@ -73,7 +82,10 @@ export const Header = ({
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                onClick={() => scrollToSection("project")}
+                onClick={() => {
+                  scrollToSection("project");
+                  closeMenu();
+                }}
                 className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_four}
@@ -91,7 +103,7 @@ export const Header = ({
         </div>
 
         <div className="flex max-lg:ml-auto">
-          <button onClick={() => setMenuOpen(true)} className="lg:hidden">
+          <button onClick={openMenu} className="lg:hidden">
             <svg
               className="w-7 h-7"
               fill="#f2f2f2"
