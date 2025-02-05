@@ -114,33 +114,16 @@ export const HeroPrinciple = () => {
           </a>
         </div>
 
-        <div className="mx-auto md:mx-0 sm:mt-4 mt-2">
-          <button className="px-6 text-xl py-1 bg-colorSecondary hover:bg-transparent border-transparent border-2 hover:border-colorSecondary transition duration-300 ease-in rounded-lg text-white flex items-center">
-            Download CV
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="mr-2"
-              width="36px"
-              height="36px"
-            >
-              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M5.25 11.25L6 10.5L9.74999 10.5L9.74999 12L6.75 12L6.75 18L17.25 18L17.25 12L14.25 12L14.25 10.5L18 10.5L18.75 11.25L18.75 18.75L18 19.5L6 19.5L5.25 18.75L5.25 11.25ZM12.75 7.06064L12.75 15L11.25 15L11.25 7.06075L9.53039 8.78037L8.46973 7.71971L12.0001 4.18937L15.5304 7.71971L14.4697 8.78037L12.75 7.06064Z"
-                  fill="#fff"
-                ></path>
-              </g>
-            </svg>
-          </button>
+        <div className="md:mx-0 sm:mt-4 mt-2"> 
+            <div className="relative inline-flex group">
+                <div
+                    className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-colorSecondary via-colorSecondary to-colorSecondary blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                </div>
+                <a href="#"
+                    className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-bold text-assets transition-all duration-200 bg-colorSecondary font-roboto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-xl"
+                    role="button">Download CV
+                </a>
+            </div>
         </div>
       </div>
     </div>

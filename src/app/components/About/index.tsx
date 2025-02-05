@@ -19,14 +19,17 @@ export const About = () => {
             desenvolver soluções eficientes e otimizadas, sempre buscando
             inovação e aprimoramento contínuo. 🚀
           </p>
-          <div className="flex justify-center">
-            <a
-              href="/knowmore"
-              className="inline-flex text-assets hover:bg-transparent border-transparent bg-colorSecondary border-2 hover:border-colorSecondary transition duration-300 ease-in py-2 px-6 focus:outline-none rounded-xl text-lg shadow-2xl font-bold font-roboto"
-            >
-              Saiba mais
-            </a>
-          </div>
+          <div>
+            <div className="relative inline-flex group">
+                <div
+                    className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-colorSecondary via-colorSecondary to-colorSecondary blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+                </div>
+                <a href="/knowmore"
+                    className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-bold text-assets transition-all duration-200 bg-colorSecondary font-roboto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-xl"
+                    role="button">Saiba mais
+                </a>
+            </div>
+        </div>
         </div>
         <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-4/6">
           <div className="w-full relative mt-12 md:mt-0 mb-0 md:mb-5 lg:mb-0">
