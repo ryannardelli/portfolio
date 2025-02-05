@@ -93,8 +93,11 @@ export const Header = ({
             </li>
             <li className="max-lg:border-b max-lg:py-3 px-3">
               <a
-                href={link_five}
-                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl"
+                onClick={() => {
+                  scrollToSection("contact");
+                  closeMenu();
+                }}
+                className="text-assets hover:text-colorSecondary transition duration-300 ease-out block font-bold text-xl cursor-pointer"
               >
                 {link_five}
               </a>
