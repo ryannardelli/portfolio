@@ -10,14 +10,6 @@ export const CardService = () => {
         <p className="feature-description">
           Criação de WebSites personalizados de acordo com a sua necessidade.
         </p>
-        <div className="flex justify-center mt-4">
-          <a
-            href="#"
-            className="inline-flex text-assets bg-colorPrimary hover:bg-[#644EF5] transition duration-300 ease-in py-2 px-6 focus:outline-none rounded-xl text-lg shadow-2xl font-bold font-roboto"
-          >
-            Ver mais
-          </a>
-        </div>
       </div>
       <div className="feature">
         <i className="feature-icon fas fa-palette"></i>
@@ -26,14 +18,6 @@ export const CardService = () => {
           Crio Layouts e protótipos modernos, responsivos e focados na
           experiência do usuário.
         </p>
-        <div className="flex justify-center mt-4">
-          <a
-            href="#"
-            className="inline-flex text-assets bg-colorPrimary hover:bg-[#644EF5] transition duration-300 ease-in py-2 px-6 focus:outline-none rounded-xl text-lg shadow-2xl font-bold font-roboto"
-          >
-            Ver mais
-          </a>
-        </div>
       </div>
       <div className="feature">
         <i className="feature-icon fas fa-tools"></i>
@@ -42,14 +26,6 @@ export const CardService = () => {
           Realizo Atualizações, correções e segurança para manter seu site
           funcional.
         </p>
-        <div className="flex justify-center mt-4">
-          <a
-            href="#"
-            className="inline-flex text-assets bg-colorPrimary hover:bg-[#644EF5] transition duration-300 ease-in py-2 px-6 focus:outline-none rounded-xl text-lg shadow-2xl font-bold font-roboto"
-          >
-            Ver mais
-          </a>
-        </div>
       </div>
     </div>
   );
