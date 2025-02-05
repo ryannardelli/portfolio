@@ -2,7 +2,7 @@ export const WorkBenefit = () => {
     return (
         <section className="text-assets font-roboto">
             <div className="flex justify-center mt-10 text-4xl font-normal font-sen">
-                Por que eu?
+                Por que me escolher?
             </div>
             <div className="container px-5 py-12 mx-auto">
                 <div className="flex flex-wrap text-center justify-center">

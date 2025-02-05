@@ -2,7 +2,7 @@ export const Skill = () => {
     return (
         <div className="h-screen flex justify-center items-center dark:bg-gray-800">
             <div className="max-w-xl mx-auto w-full">
-                <h4 className="text-3xl md:text-5xl dark:text-white font-bold mb-6">Habilidades</h4>
+                <h4 className="text-3xl md:text-4xl dark:text-white font-bold mb-6">Habilidades</h4>
 
                 <div className="mb-7">
                     <div className="flex justify-between py-1">
