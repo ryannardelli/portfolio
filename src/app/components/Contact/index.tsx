@@ -9,7 +9,7 @@ export const Contact = () => {
           </h1>
         </div>
         <div className="mx-auto md:w-2/3 lg:w-1/2">
-            <Form />
+          <Form />
         </div>
       </div>
     </section>
