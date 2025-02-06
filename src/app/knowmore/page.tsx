@@ -6,10 +6,10 @@ import { WorkBenefit } from "../components/WorkBenefit";
 export default function KnowMore() {
   return (
     <>
-        <ReturnHome />
-        <SectionAboutMore />
-        <WorkBenefit />
-        <Skill />
+      <ReturnHome />
+      <SectionAboutMore />
+      <WorkBenefit />
+      <Skill />
     </>
-  )
+  );
 }
