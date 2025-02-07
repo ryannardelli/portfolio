@@ -2,7 +2,7 @@
 import { handleSubmit } from "../../utils/handleSubmit";
 import { useState } from "react";
 
-export const Form = () => {
+export const Form = ({ setShowAlert }: { setShowAlert: (show: boolean) => void }) => {
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   return (
@@ -10,7 +10,7 @@ export const Form = () => {
       className="-m-2 flex flex-wrap"
       action="https://api.staticforms.xyz/submit"
       method="POST"
-      onSubmit={(event) => handleSubmit(event, setErrors)}
+      onSubmit={(event) => handleSubmit(event, setErrors, setShowAlert)}
     >
       <input
         type="hidden"
@@ -124,11 +124,11 @@ export const Form = () => {
           Enviar
         </button>
       </div>
-      <input
+      {/* <input
         type="hidden"
         name="redirectTo"
         value="http://localhost:3000/"
-      ></input>
+      ></input> */}
     </form>
   );
 };

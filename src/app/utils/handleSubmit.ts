@@ -3,6 +3,7 @@ import { FormEvent } from "react";
 export const handleSubmit = (
   event: FormEvent<HTMLFormElement>,
   setErrors: (errors: Record<string, string>) => void,
+  setShowAlert: (show: boolean) => void
 ) => {
   event.preventDefault();
 
@@ -29,5 +30,6 @@ export const handleSubmit = (
   // Aguarda um pequeno delay antes do envio (opcional)
   setTimeout(() => {
     form.submit(); // Envia o formulário manualmente
+    setShowAlert(true);
   }, 100);
 };
