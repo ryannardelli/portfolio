@@ -22,8 +22,8 @@ export const SectionAboutMore = () => {
           <div className="relative inline-flex group mt-8">
             <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-colorSecondary to-colorSecondary rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
             <a
-              href="#"
-              title="Get quote now"
+              href="mailto:ryannardelli12@gmail.com"
+              title="Contact Now"
               className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-assets transition-all duration-200 bg-colorSecondary font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-colorSecondary"
               role="button"
             >
