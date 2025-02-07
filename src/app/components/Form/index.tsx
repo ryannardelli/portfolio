@@ -33,7 +33,9 @@ export const Form = () => {
             Nome
           </label>
         </div>
-        {errors.name && <p className="text-red-500 text-sm font-semibold">{errors.name}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm font-semibold">{errors.name}</p>
+        )}
       </div>
       <div className="w-1/2 p-2">
         <div className="relative">
@@ -51,7 +53,9 @@ export const Form = () => {
             Sobrenome
           </label>
         </div>
-        {errors.name && <p className="text-red-500 text-sm font-semibold">{errors.surname}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm font-semibold">{errors.surname}</p>
+        )}
       </div>
       <div className="w-1/2 p-2">
         <div className="relative">
@@ -69,7 +73,9 @@ export const Form = () => {
             Telefone
           </label>
         </div>
-        {errors.name && <p className="text-red-500 text-sm font-semibold">{errors.phone}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm font-semibold">{errors.phone}</p>
+        )}
       </div>
       <div className="w-1/2 p-2">
         <div className="relative">
@@ -87,7 +93,9 @@ export const Form = () => {
             Email
           </label>
         </div>
-        {errors.name && <p className="text-red-500 text-sm font-semibold">{errors.email}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm font-semibold">{errors.email}</p>
+        )}
       </div>
       <div className="mt-4 w-full p-2">
         <div className="relative">
@@ -104,12 +112,14 @@ export const Form = () => {
             Mensagem
           </label>
         </div>
-         {errors.name && <p className="text-red-500 text-sm font-semibold">{errors.message}</p>}
+        {errors.name && (
+          <p className="text-red-500 text-sm font-semibold">{errors.message}</p>
+        )}
       </div>
       <div className="w-full p-2">
         <button
           type="submit"
-          className="mx-auto flex rounded bg-colorSecondary py-2 px-8 text-lg text-white focus:outline-none"
+          className="mx-auto flex rounded bg-colorSecondary py-2 px-8 text-lg text-white focus:outline-none border-2 border-transparent hover:border-colorSecondary hover:bg-transparent transition-all duration-500"
         >
           Enviar
         </button>
@@ -117,7 +127,7 @@ export const Form = () => {
       <input
         type="hidden"
         name="redirectTo"
-        value="https://example.com/contact/success"
+        value="http://localhost:3000/"
       ></input>
     </form>
   );
