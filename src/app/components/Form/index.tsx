@@ -124,11 +124,6 @@ export const Form = ({ setShowAlert }: { setShowAlert: (show: boolean) => void }
           Enviar
         </button>
       </div>
-      {/* <input
-        type="hidden"
-        name="redirectTo"
-        value="http://localhost:3000/"
-      ></input> */}
     </form>
   );
 };

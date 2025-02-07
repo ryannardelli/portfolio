@@ -1,6 +1,6 @@
 import { FormEvent } from "react";
 
-export const handleSubmit = (
+export const handleSubmit = async (
   event: FormEvent<HTMLFormElement>,
   setErrors: (errors: Record<string, string>) => void,
   setShowAlert: (show: boolean) => void
@@ -9,7 +9,7 @@ export const handleSubmit = (
 
   const form = event.target as HTMLFormElement;
   const formData = new FormData(form);
-  const data = Object.fromEntries(formData);
+  const data = Object.fromEntries(formData.entries());
 
   const errors: Record<string, string> = {};
 
@@ -25,11 +25,27 @@ export const handleSubmit = (
     return;
   }
 
-  console.log("Dados do formulário:", data);
+  setTimeout(async () => {
+    try {
+      const response = await fetch("https://api.staticforms.xyz/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
 
-  // Aguarda um pequeno delay antes do envio (opcional)
-  setTimeout(() => {
-    form.submit(); // Envia o formulário manualmente
-    setShowAlert(true);
-  }, 100);
+      if (!response.ok) {
+        throw new Error("Erro ao enviar formulário.");
+      }
+
+      setShowAlert(true);
+
+      setTimeout(() => {
+        window.location.href = "http://localhost:3000/";
+      }, 2000);
+    } catch (error) {
+      console.log("Ocorreu um erro ao enviar o formulário.", error);
+    }
+  });
 };
