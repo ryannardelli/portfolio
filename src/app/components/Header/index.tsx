@@ -20,7 +20,7 @@ export const Header = ({
   const { menuOpen, openMenu, closeMenu } = useMenu();
 
   return (
-    <header className="tracking-wide relative z-50">
+    <header className="tracking-wide relative">
       <div className="flex flex-wrap font-sen font-extrabold text-2xl items-center justify-around gap-4 px-10 py-4 min-h-[70px]">
         <a href="#">Portfólio</a>
 
