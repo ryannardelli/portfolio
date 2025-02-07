@@ -3,7 +3,7 @@ import { FormEvent } from "react";
 export const handleSubmit = async (
   event: FormEvent<HTMLFormElement>,
   setErrors: (errors: Record<string, string>) => void,
-  setShowAlert: (show: boolean) => void
+  setShowAlert: (show: boolean) => void,
 ) => {
   event.preventDefault();
 

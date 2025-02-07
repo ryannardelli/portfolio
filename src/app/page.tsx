@@ -24,7 +24,7 @@ export default function Home() {
       <About />
       <ServiceProfessional />
       <Project />
-      <Contact setShowAlert={ setShowAlert } />
+      <Contact setShowAlert={setShowAlert} />
     </>
   );
 }

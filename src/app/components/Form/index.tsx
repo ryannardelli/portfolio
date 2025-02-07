@@ -2,7 +2,11 @@
 import { handleSubmit } from "../../utils/handleSubmit";
 import { useState } from "react";
 
-export const Form = ({ setShowAlert }: { setShowAlert: (show: boolean) => void }) => {
+export const Form = ({
+  setShowAlert,
+}: {
+  setShowAlert: (show: boolean) => void;
+}) => {
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   return (

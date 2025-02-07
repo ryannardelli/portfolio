@@ -1,5 +1,9 @@
 import { Form } from "../Form";
-export const Contact = ({ setShowAlert }: { setShowAlert: (show: boolean) => void }) => {
+export const Contact = ({
+  setShowAlert,
+}: {
+  setShowAlert: (show: boolean) => void;
+}) => {
   return (
     <section className="relative" id="contact">
       <div className="container mx-auto px-5 py-24">

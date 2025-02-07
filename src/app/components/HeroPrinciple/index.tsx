@@ -45,7 +45,7 @@ export const HeroPrinciple = () => {
         </p>
 
         <div className="flex justify-center md:justify-start space-x-4">
-          <a href="#">
+          <a href="https://github.com/ryannardelli" target="_blank">
             <svg
               width="40px"
               height="40px"
@@ -90,7 +90,7 @@ export const HeroPrinciple = () => {
             </svg>
           </a>
 
-          <a href="#">
+          <a href="https://www.linkedin.com/in/ryannardelli/" target="_blank">
             <svg
               width="40px"
               height="40px"
@@ -118,7 +118,8 @@ export const HeroPrinciple = () => {
           <div className="relative inline-flex group">
             <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-colorSecondary via-colorSecondary to-colorSecondary blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
             <a
-              href="#"
+              href="/archive/curriculo_profissional.pdf"
+              download="Curriculo_profissional.pdf"
               className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-bold text-assets transition-all duration-200 bg-colorSecondary font-roboto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-xl"
               role="button"
             >
