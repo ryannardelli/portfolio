@@ -45,7 +45,7 @@ export const HeroPrinciple = () => {
         </p>
 
         <div className="flex justify-center md:justify-start space-x-4">
-          <a href="https://github.com/ryannardelli" target="_blank">
+          <a href="https://github.com/ryannardelli" target="_blank" className="hover:scale-110 transition-transform duration-300">
             <svg
               width="40px"
               height="40px"
@@ -90,7 +90,7 @@ export const HeroPrinciple = () => {
             </svg>
           </a>
 
-          <a href="https://www.linkedin.com/in/ryannardelli/" target="_blank">
+          <a href="https://www.linkedin.com/in/ryannardelli/" target="_blank" className="hover:scale-110 transition-transform duration-300">
             <svg
               width="40px"
               height="40px"
