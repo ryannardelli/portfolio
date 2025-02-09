@@ -10,11 +10,6 @@ Bem-vindo ao meu portfólio! Aqui você encontrará projetos que desenvolvi util
 - **TypeScript** - Superset do JavaScript que adiciona tipagem estática.
 - **Tailwind CSS** - Framework de estilização para criar interfaces modernas e responsivas.
 
-## Preview
-
-<img src="/img/print.png" alt="Print Screen" />
-
-
 ## 📬 Contato
 
 📧 **Email:** [ryannardelli12@email.com](mailto:ryannardelli12@email.com)  
