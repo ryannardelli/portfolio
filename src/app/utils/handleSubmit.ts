@@ -42,7 +42,7 @@ export const handleSubmit = async (
       setShowAlert(true);
 
       setTimeout(() => {
-        window.location.href = "http://localhost:3000/";
+        window.location.href = "https://shiny-cat-b0a92d.netlify.app/";
       }, 2000);
     } catch (error) {
       console.log("Ocorreu um erro ao enviar o formulário.", error);
