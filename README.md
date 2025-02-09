@@ -16,3 +16,6 @@ Bem-vindo ao meu portfólio! Aqui você encontrará projetos que desenvolvi util
 🌐 **LinkedIn:** [linkedin.com/in/ryannardelli](https://www.linkedin.com/in/ryannardelli/)  
 🐙 **GitHub:** [github.com/ryannardelli](https://github.com/ryannardelli)  
 
+## Acesso Online
+O projeto está hospedado na Netlify. Você pode acessá-lo através do seguinte link:
+[Portfólio - Acesse Aqui](https://shiny-cat-b0a92d.netlify.app/)
