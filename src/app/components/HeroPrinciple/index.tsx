@@ -118,8 +118,8 @@ export const HeroPrinciple = () => {
           <div className="relative inline-flex group">
             <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-colorSecondary via-colorSecondary to-colorSecondary blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
             <a
-              href="/archive/curriculo_profissional.pdf"
-              download="Curriculo_profissional.pdf"
+              href="/archive/RyanNardelli.CV.pdf"
+              download="RyanNardelli.CV.pdf"
               className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-bold text-assets transition-all duration-200 bg-colorSecondary font-roboto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 rounded-xl"
               role="button"
             >
